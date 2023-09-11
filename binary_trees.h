@@ -2,6 +2,7 @@
 #define TREES_H
 #include <stddef.h>
 #include <math.h>
+#include <stdlib.h>
 /**
  * struct binary_tree_s - Binary tree node
  *

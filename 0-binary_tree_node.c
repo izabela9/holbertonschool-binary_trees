@@ -1,4 +1,4 @@
-#include "main.h"
+#include "binary_trees.h"
 
 /**
  * binary_tree_node - adds a new node
@@ -17,7 +17,7 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 	new->n = value;
 	new->parent = parent;
 	new->right = NULL;
-	new->let = NULL;
+	new->left = NULL;
 
 	return (new);
 }
