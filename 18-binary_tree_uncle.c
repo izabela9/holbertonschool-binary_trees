@@ -1,6 +1,10 @@
 #include "binary_trees.h"
+#include "proxy_height.c"
 
 /**
+ * binary_tree_uncle - Checks if the ode has uncles
+ * @node: Node to be checked
+ * Return: Nothing
  */
 
 binary_tree_t *binary_tree_uncle(binary_tree_t *node)
