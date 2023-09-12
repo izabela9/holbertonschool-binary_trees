@@ -1,4 +1,5 @@
 #include "binary_trees.h"
+#include "proxy_height.c"
 
 /**
  * binary_tree_balance - Prints the balance of the tre
