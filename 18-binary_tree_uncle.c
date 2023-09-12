@@ -1,4 +1,5 @@
 #include "binary_trees.h"
+#include "proxy_height.c"
 /**
  * binary_tree_uncle - Find the uncle of a node.
  * @node: A pointer to the node for which to find the uncle.
