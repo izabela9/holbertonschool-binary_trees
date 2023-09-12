@@ -15,7 +15,6 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 
 	leftDepth = binary_tree_is_perfect(tree->left);
 	rightDepth = binary_tree_is_perfect(tree->right);
-
 	if (leftDepth == rightDepth)
 	{
 		if (tree->left == NULL && tree->right == NULL)
